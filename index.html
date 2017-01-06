@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sidebar动态侧栏制作</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+
+<!--  /*暗化效果*/
+ /*为了方便，取类或id名为mask*/ -->
+<div class="mask"></div>
+
+
+<!--  /*侧拉菜单*/
+ /*为了方便，取侧栏的id名为sidebar*/ -->
+<div id="sidebar">
+<ul>
+ <li><a href="#">关于侧拉菜单制作</a></li>
+ <li><a href="#">item1</a></li>
+ <li><a href="#">item1</a></li>
+ <li><a href="#">item1</a></li>
+ <li><a href="#">item1</a></li>
+ </ul>
+</div>
+
+<!-- /*click链接*/
+/*同理，取li标签的id为sidebar_trigger,a标签的类名为menuToggle*/ -->
+<div id="menu2">
+  <ul>
+    <li id="sidebar_trigger">
+    <a href="#" class="menuToggle">MENU</a>
+    </li>
+  </ul>
+</div>
+
+
+
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

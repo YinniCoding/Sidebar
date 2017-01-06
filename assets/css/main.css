@@ -1,0 +1,40 @@
+.mask{
+/*display: none;//隐藏样式*/
+position: fixed;
+top:0;
+bottom: 0;
+right: 0;
+left: 0;
+background: rgba(0,0,0,0.3);
+}
+
+#sidebar{
+position:fixed;
+top:0;
+left:-300px;//暂时隐藏于左侧面
+bottom: 0;
+width: 300px;
+background: #444;
+color: #fff;
+padding: 20px 0;
+transition: left 0.5s;//平滑过渡进入
+font-family: "微软雅黑";
+}
+//一些多余样式的清除
+#sidebar ul {
+list-style: none;
+padding: 0;
+margin: 0;
+text-decoration: none;
+}
+#sidebar ul a{
+color:#fff;
+text-decoration: none;
+padding: 10px 30px;
+width: 100%;
+display: inline-block;
+}
+#sidebar ul a:hover{
+background: #444;
+text-decoration: none;
+}
